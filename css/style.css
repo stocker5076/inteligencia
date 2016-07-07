@@ -1,0 +1,26 @@
+.uno{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: green;
+	width: 10%;
+	height: 20px;
+}
+
+.dos{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: blue;
+	width: 10%;
+	height: 20px;
+}
+
+.tres{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: pink;
+	width: 10%;
+	height: 20px;
+}
