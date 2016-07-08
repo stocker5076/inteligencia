@@ -14,6 +14,16 @@ var estaEnContento,estaEnTriste,estaEnEnamorado,estaEnOdio,estaEnIntenso,estaEnS
 var encontradaTotal = false;
 var universoRespuestas =[];
 
+var contento = ["Estoy feliz","Me siento bien","Me siento genial", "Hoy es un día genial"];
+var triste = ["Me siento triste","Estoy deprimido","Creo que me siento mal","No me digas eso que me deprimo"];
+var enamorado = ["Te amo","Me gustas","Eso me encanta","Te adoro"];
+var odio = ["Callate!","Te odio!","Eres una basuara","Todos son unos estúpidos"];
+var intenso = ["El éxito está conmigo!!!","Soy el mejor!","Yo puedo hacer todo!","Dominaré el mundo"];
+var soledad = ["Quieres salir a cenar","Aveces yo también me siento solo","Quieres venir a mi casa?","Vamos al cine?"];
+var angustia = ["y si se acaba el mundo?","y si me hackean?","no se para que vivir!","ayudame, tengo miedo"];
+
+var adios = ["adiós","bye","au revoir"]
+
 function inicio() {
     	var saludo = prompt("Bienvenido a Inteligencia Desafio");
     	var frase = generaSaludo();
